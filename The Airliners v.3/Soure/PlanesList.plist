@@ -23,6 +23,20 @@
 		<string>Mid-sized, mid- to long-range, narrow-body, four-engine jet airliner</string>
 		<key>name</key>
 		<string>The Boeing 707</string>
+		<key>nationName</key>
+		<string>National Origin</string>
+		<key>manuName</key>
+		<string>Manufacturer</string>
+		<key>firstName</key>
+		<string>First Flight</string>
+		<key>proName</key>
+		<string>Produced</string>
+		<key>numbName</key>
+		<string>Number Built</string>
+		<key>statusName</key>
+		<string>Status</string>
+		<key>information</key>
+		<string>Information</string>
 	</dict>
 	<dict>
 		<key>status</key>
@@ -45,6 +59,20 @@
 		<string>Twin-engine, single-aisle</string>
 		<key>name</key>
 		<string>The Boeing 717</string>
+		<key>nationName</key>
+		<string>National Origin</string>
+		<key>manuName</key>
+		<string>Manufacturer</string>
+		<key>firstName</key>
+		<string>First Flight</string>
+		<key>proName</key>
+		<string>Produced</string>
+		<key>numbName</key>
+		<string>Number Built</string>
+		<key>statusName</key>
+		<string>Status</string>
+		<key>information</key>
+		<string>Information</string>
 	</dict>
 	<dict>
 		<key>status</key>
@@ -67,6 +95,20 @@
 		<string>Midsized, narrow-body three-engined</string>
 		<key>name</key>
 		<string>The Boeing 727</string>
+		<key>nationName</key>
+		<string>National Origin</string>
+		<key>manuName</key>
+		<string>Manufacturer</string>
+		<key>firstName</key>
+		<string>First Flight</string>
+		<key>proName</key>
+		<string>Produced</string>
+		<key>numbName</key>
+		<string>Number Built</string>
+		<key>statusName</key>
+		<string>Status</string>
+		<key>information</key>
+		<string>Information</string>
 	</dict>
 	<dict>
 		<key>status</key>
@@ -89,6 +131,20 @@
 		<string>Twin‑engine, single aisle, short- to medium-range narrow-body</string>
 		<key>name</key>
 		<string>The Boeing 737</string>
+		<key>nationName</key>
+		<string>National Origin</string>
+		<key>manuName</key>
+		<string>Manufacturer</string>
+		<key>firstName</key>
+		<string>First Flight</string>
+		<key>proName</key>
+		<string>Produced</string>
+		<key>numbName</key>
+		<string>Number Built</string>
+		<key>statusName</key>
+		<string>Status</string>
+		<key>information</key>
+		<string>Information</string>
 	</dict>
 	<dict>
 		<key>status</key>
@@ -111,6 +167,20 @@
 		<string>Heavy, four‑engine, partial double deck, twin–aisle main deck, single–aisle upper deck, medium- to long-range widebody</string>
 		<key>name</key>
 		<string>The Boeing 747</string>
+		<key>nationName</key>
+		<string>National Origin</string>
+		<key>manuName</key>
+		<string>Manufacturer</string>
+		<key>firstName</key>
+		<string>First Flight</string>
+		<key>proName</key>
+		<string>Produced</string>
+		<key>numbName</key>
+		<string>Number Built</string>
+		<key>statusName</key>
+		<string>Status</string>
+		<key>information</key>
+		<string>Information</string>
 	</dict>
 	<dict>
 		<key>status</key>
@@ -133,6 +203,20 @@
 		<string>Mid-sized, narrow-body short to medium range, twin-engine</string>
 		<key>name</key>
 		<string>The Boeing 757</string>
+		<key>nationName</key>
+		<string>National Origin</string>
+		<key>manuName</key>
+		<string>Manufacturer</string>
+		<key>firstName</key>
+		<string>First Flight</string>
+		<key>proName</key>
+		<string>Produced</string>
+		<key>numbName</key>
+		<string>Number Built</string>
+		<key>statusName</key>
+		<string>Status</string>
+		<key>information</key>
+		<string>Information</string>
 	</dict>
 	<dict>
 		<key>status</key>
@@ -155,6 +239,20 @@
 		<string>Heavy, twin-engine, twin aisle, medium- to long-range widebody</string>
 		<key>name</key>
 		<string>The Boeing 767</string>
+		<key>nationName</key>
+		<string>National Origin</string>
+		<key>manuName</key>
+		<string>Manufacturer</string>
+		<key>firstName</key>
+		<string>First Flight</string>
+		<key>proName</key>
+		<string>Produced</string>
+		<key>numbName</key>
+		<string>Number Built</string>
+		<key>statusName</key>
+		<string>Status</string>
+		<key>information</key>
+		<string>Information</string>
 	</dict>
 	<dict>
 		<key>status</key>
@@ -177,6 +275,20 @@
 		<string>Heavy, twin-engine, twin aisle, medium- to long-range, ultra long-range (200LR), widebody</string>
 		<key>name</key>
 		<string>The Boeing 777</string>
+		<key>nationName</key>
+		<string>National Origin</string>
+		<key>manuName</key>
+		<string>Manufacturer</string>
+		<key>firstName</key>
+		<string>First Flight</string>
+		<key>proName</key>
+		<string>Produced</string>
+		<key>numbName</key>
+		<string>Number Built</string>
+		<key>statusName</key>
+		<string>Status</string>
+		<key>information</key>
+		<string>Information</string>
 	</dict>
 	<dict>
 		<key>status</key>
@@ -199,6 +311,20 @@
 		<string>Heavy, twin-engine, twin aisle, long-range widebody</string>
 		<key>name</key>
 		<string>The Boeing 787 Dreamliner</string>
+		<key>nationName</key>
+		<string>National Origin</string>
+		<key>manuName</key>
+		<string>Manufacturer</string>
+		<key>firstName</key>
+		<string>First Flight</string>
+		<key>proName</key>
+		<string>Produced</string>
+		<key>numbName</key>
+		<string>Number Built</string>
+		<key>statusName</key>
+		<string>Status</string>
+		<key>information</key>
+		<string>Information</string>
 	</dict>
 </array>
 </plist>

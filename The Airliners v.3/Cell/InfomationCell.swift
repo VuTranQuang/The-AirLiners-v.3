@@ -9,7 +9,9 @@
 import UIKit
 
 class InfomationCell: UITableViewCell {
-
+    @IBOutlet weak var infoRight: UILabel!
+    
+    @IBOutlet weak var titleLeft: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

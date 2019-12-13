@@ -10,6 +10,7 @@ import UIKit
 
 class ImageCell: UITableViewCell {
 
+    @IBOutlet weak var imageCell: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -21,4 +22,7 @@ class ImageCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    @IBAction func backButton(_ sender: UIButton) {
+        NotificationCenter.default.post(name: Notification.Name("backButton"), object: nil)
+    }
 }

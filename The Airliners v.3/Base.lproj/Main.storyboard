@@ -74,28 +74,34 @@
             </objects>
             <point key="canvasLocation" x="804" y="-564.46776611694156"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Infomation-->
         <scene sceneID="hyX-SC-Jz9">
             <objects>
-                <viewController id="obp-5V-T7l" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4Qo-X8-aPb">
+                <viewController storyboardIdentifier="infControl" id="obp-5V-T7l" customClass="ViewControllerInfomation" customModule="The_Airliners_v_3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4Qo-X8-aPb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Mii-dy-ihO">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" contentViewInsetsToSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mii-dy-ihO">
+                                <rect key="frame" x="0.0" y="-50" width="375" height="717"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="obp-5V-T7l" id="HTr-aL-fzA"/>
+                                    <outlet property="delegate" destination="obp-5V-T7l" id="jcg-cr-6MV"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Mii-dy-ihO" firstAttribute="top" secondItem="4Qo-X8-aPb" secondAttribute="top" id="aD9-75-3Pd"/>
-                            <constraint firstAttribute="trailing" secondItem="Mii-dy-ihO" secondAttribute="trailing" id="gr7-oR-4UG"/>
-                            <constraint firstItem="Mii-dy-ihO" firstAttribute="leading" secondItem="4Qo-X8-aPb" secondAttribute="leading" id="t4p-wj-K0s"/>
-                            <constraint firstAttribute="bottom" secondItem="Mii-dy-ihO" secondAttribute="bottom" id="vum-hT-aGr"/>
+                            <constraint firstItem="Mii-dy-ihO" firstAttribute="top" secondItem="4Qo-X8-aPb" secondAttribute="top" constant="-50" id="PvI-TQ-Gl5"/>
+                            <constraint firstAttribute="bottom" secondItem="Mii-dy-ihO" secondAttribute="bottom" id="QLU-Yv-JiO"/>
+                            <constraint firstAttribute="trailing" secondItem="Mii-dy-ihO" secondAttribute="trailing" id="bSE-G9-mO4"/>
+                            <constraint firstItem="Mii-dy-ihO" firstAttribute="leading" secondItem="4Qo-X8-aPb" secondAttribute="leading" id="iRr-kc-cNR"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="epF-Jb-wjd"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="Mii-dy-ihO" id="ly4-kw-7Mk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2XQ-H9-nLf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

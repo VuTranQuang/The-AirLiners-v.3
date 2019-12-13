@@ -1,5 +1,5 @@
 //
-//  TextViewCell.swift
+//  InfTitleCell.swift
 //  The Airliners v.3
 //
 //  Created by VuTQ10 on 12/13/19.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-class TextViewCell: UITableViewCell {
+class InfTitleCell: UITableViewCell {
 
-    @IBOutlet weak var textViewCell: UITextView!
+    @IBOutlet weak var infTitle: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

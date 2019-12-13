@@ -35,4 +35,21 @@ struct Airliner {
         self.status = status
         self.longDescrip = longDescrip
     }
+    
+    var nationName: String?
+    var manuName: String?
+    var firstName: String?
+    var proName: String?
+    var numbName: String?
+    var statust: String?
+    var information: String?
+    init(nationName: String, manuName: String, firstName: String, proName: String, numbName: String, statust: String, information: String) {
+        self.nationName = nationName
+        self.manuName = manuName
+        self.firstName = firstName
+        self.proName = proName
+        self.numbName = numbName
+        self.statust = statust
+        self.information = information
+    }
 }

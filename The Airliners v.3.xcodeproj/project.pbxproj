@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56580C1E23A33F1800FFAB8B /* InfTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56580C1C23A33F1800FFAB8B /* InfTitleCell.swift */; };
+		56580C1F23A33F1800FFAB8B /* InfTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56580C1D23A33F1800FFAB8B /* InfTitleCell.xib */; };
 		568F92C723A32BBC00977F1B /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F92C523A32BBC00977F1B /* ImageCell.swift */; };
 		568F92C823A32BBC00977F1B /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 568F92C623A32BBC00977F1B /* ImageCell.xib */; };
 		568F92CB23A32BE800977F1B /* TextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F92C923A32BE800977F1B /* TextViewCell.swift */; };
 		568F92CC23A32BE800977F1B /* TextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 568F92CA23A32BE800977F1B /* TextViewCell.xib */; };
 		568F92CF23A32C0D00977F1B /* InfomationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F92CD23A32C0D00977F1B /* InfomationCell.swift */; };
 		568F92D023A32C0D00977F1B /* InfomationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 568F92CE23A32C0D00977F1B /* InfomationCell.xib */; };
+		568F92D223A32ED600977F1B /* ViewControllerInfomation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F92D123A32ED600977F1B /* ViewControllerInfomation.swift */; };
 		56E09F6923A22D130046580D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E09F6823A22D130046580D /* AppDelegate.swift */; };
 		56E09F6B23A22D130046580D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E09F6A23A22D130046580D /* ViewController.swift */; };
 		56E09F6E23A22D130046580D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56E09F6C23A22D130046580D /* Main.storyboard */; };
@@ -35,12 +38,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56580C1C23A33F1800FFAB8B /* InfTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfTitleCell.swift; sourceTree = "<group>"; };
+		56580C1D23A33F1800FFAB8B /* InfTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfTitleCell.xib; sourceTree = "<group>"; };
 		568F92C523A32BBC00977F1B /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		568F92C623A32BBC00977F1B /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
 		568F92C923A32BE800977F1B /* TextViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewCell.swift; sourceTree = "<group>"; };
 		568F92CA23A32BE800977F1B /* TextViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewCell.xib; sourceTree = "<group>"; };
 		568F92CD23A32C0D00977F1B /* InfomationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationCell.swift; sourceTree = "<group>"; };
 		568F92CE23A32C0D00977F1B /* InfomationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfomationCell.xib; sourceTree = "<group>"; };
+		568F92D123A32ED600977F1B /* ViewControllerInfomation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerInfomation.swift; sourceTree = "<group>"; };
 		56E09F6523A22D130046580D /* The Airliners v.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Airliners v.3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E09F6823A22D130046580D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56E09F6A23A22D130046580D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56580C2023A36B7E00FFAB8B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				56E09F6A23A22D130046580D /* ViewController.swift */,
+				568F92D123A32ED600977F1B /* ViewControllerInfomation.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		56E09F5C23A22D130046580D = {
 			isa = PBXGroup;
 			children = (
@@ -95,12 +110,12 @@
 			isa = PBXGroup;
 			children = (
 				56E09F6823A22D130046580D /* AppDelegate.swift */,
+				56580C2023A36B7E00FFAB8B /* Controller */,
 				56E09F7A23A22D2C0046580D /* Soure */,
-				56E09F6A23A22D130046580D /* ViewController.swift */,
 				56E09F7F23A236030046580D /* Cell */,
-				56E09F8423A2365D0046580D /* UIView + Extension.swift */,
 				56E09F8623A236780046580D /* PlancePhoto */,
 				56E09F6C23A22D130046580D /* Main.storyboard */,
+				56E09F8423A2365D0046580D /* UIView + Extension.swift */,
 				56E09F6F23A22D140046580D /* Assets.xcassets */,
 				56E09F7123A22D140046580D /* LaunchScreen.storyboard */,
 				56E09F7423A22D140046580D /* Info.plist */,
@@ -128,6 +143,8 @@
 				568F92CA23A32BE800977F1B /* TextViewCell.xib */,
 				568F92CD23A32C0D00977F1B /* InfomationCell.swift */,
 				568F92CE23A32C0D00977F1B /* InfomationCell.xib */,
+				56580C1C23A33F1800FFAB8B /* InfTitleCell.swift */,
+				56580C1D23A33F1800FFAB8B /* InfTitleCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -208,6 +225,7 @@
 			files = (
 				56E09F7323A22D140046580D /* LaunchScreen.storyboard in Resources */,
 				568F92CC23A32BE800977F1B /* TextViewCell.xib in Resources */,
+				56580C1F23A33F1800FFAB8B /* InfTitleCell.xib in Resources */,
 				56E09F8323A236140046580D /* TableViewCell.xib in Resources */,
 				56E09F9423A2368D0046580D /* 747.jpg in Resources */,
 				568F92C823A32BBC00977F1B /* ImageCell.xib in Resources */,
@@ -233,12 +251,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56580C1E23A33F1800FFAB8B /* InfTitleCell.swift in Sources */,
 				56E09F7E23A235640046580D /* Airlines.swift in Sources */,
 				56E09F8123A2360D0046580D /* TableViewCell.swift in Sources */,
 				56E09F6B23A22D130046580D /* ViewController.swift in Sources */,
 				568F92CF23A32C0D00977F1B /* InfomationCell.swift in Sources */,
 				56E09F8523A2365D0046580D /* UIView + Extension.swift in Sources */,
 				56E09F6923A22D130046580D /* AppDelegate.swift in Sources */,
+				568F92D223A32ED600977F1B /* ViewControllerInfomation.swift in Sources */,
 				568F92C723A32BBC00977F1B /* ImageCell.swift in Sources */,
 				568F92CB23A32BE800977F1B /* TextViewCell.swift in Sources */,
 			);
